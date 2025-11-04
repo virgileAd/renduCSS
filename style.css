@@ -1,0 +1,114 @@
+* {
+    margin: 0%;
+}
+
+header {
+    background-image: url(assets/image-header.png);
+    background-color: black;ù
+    back
+    margin: 0px;
+
+}
+
+.dmsans {
+    font-family: "DM Sans", sans-serif;
+    color: white;
+
+}
+
+.poopins {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.inline {
+    display: inline-block;
+}
+
+#titre {
+    margin-top: -40px;
+    font-size: 160px;
+    font-style: normal;
+}
+
+.droite {
+    text-align: right;
+    margin-top: -40px;
+    margin-right: 100px;
+}
+
+ul {
+    display: inline-flex;
+    text-align: right;
+
+}
+
+li {
+    display: inline-block;
+
+}
+
+.navi {
+    text-decoration: none;
+    padding: 20px;
+}
+
+#logohead {
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+#cheader {
+    margin-left: 460px;
+    margin-top: 225px;
+}
+
+h1 {
+    font-size: 53px;
+    font-weight: 400;
+}
+
+#unh2 {
+    font-size: 28px;
+
+}
+
+.tigras {
+    font-weight: 400;
+    display: block;
+}
+
+#buton {
+    margin-top: 50px;
+    margin-left: 460px;
+    padding-bottom: 170px;
+    word-spacing: 15px;
+}
+
+#button1 {
+    border: 5px rgb(14, 14, 14) solid;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    border-radius: 4px;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif; 
+    font-weight: 600;
+}
+
+#button2 {
+    border: 5px white solid;
+    background-color: white;
+    color: rgb(14, 14, 14);
+    border-radius: 4px;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif; 
+    font-weight: 600;
+    word-spacing: 2px;
+}
