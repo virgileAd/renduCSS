@@ -1,14 +1,22 @@
+
 * {
     margin: 0%;
 }
 
 header {
     background-image: url(assets/image-header.png);
-    background-color: black;ù
-    back
+    background-color: black;
     margin: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
 
 }
+
+nav {
+    height: 260px;
+}
+
 
 .dmsans {
     font-family: "DM Sans", sans-serif;
@@ -36,16 +44,16 @@ header {
 .droite {
     text-align: right;
     margin-top: -40px;
-    margin-right: 100px;
+    margin-right: 20px;
 }
 
-ul {
+#ul1 {
     display: inline-flex;
     text-align: right;
 
 }
 
-li {
+.li1 {
     display: inline-block;
 
 }
@@ -62,8 +70,10 @@ li {
 }
 
 #cheader {
-    margin-left: 460px;
-    margin-top: 225px;
+    margin: auto;
+    width: 650px;
+    height: 450px;
+
 }
 
 h1 {
@@ -82,10 +92,9 @@ h1 {
 }
 
 #buton {
-    margin-top: 50px;
-    margin-left: 460px;
-    padding-bottom: 170px;
     word-spacing: 15px;
+    margin-left: 330px;
+    width: 400px;
 }
 
 #button1 {
@@ -96,7 +105,7 @@ h1 {
     padding: 5px 25px;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: "DM Sans", sans-serif; 
+    font-family: "DM Sans", sans-serif;
     font-weight: 600;
 }
 
@@ -108,7 +117,49 @@ h1 {
     padding: 5px 25px;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: "DM Sans", sans-serif; 
+    font-family: "DM Sans", sans-serif;
     font-weight: 600;
     word-spacing: 2px;
+}
+
+#blackbg {
+    background-color: black;
+    padding: 130px;
+}
+.deuxh2 {
+    text-align: left;
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.para1 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.centre{
+    text-align: center;
+}
+
+#banniere {
+    width: 99vw;
+}
+
+#blackbg2 {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+
+.test2 {
+    display: block;
+    text-align: left;
+    width: 250px;
+    margin: auto;
+    line-height: 30px;
+}
+.gras {
+    font-weight: bold;
 }
