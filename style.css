@@ -1,4 +1,3 @@
-
 * {
     margin: 0%;
 }
@@ -126,6 +125,7 @@ h1 {
     background-color: black;
     padding: 130px;
 }
+
 .deuxh2 {
     text-align: left;
     font-size: 48px;
@@ -138,7 +138,7 @@ h1 {
     text-align: left;
 }
 
-.centre{
+.centre {
     text-align: center;
 }
 
@@ -150,16 +150,92 @@ h1 {
     background-color: black;
     text-align: center;
     color: white;
+    height: 500px;
+    padding-top: 100px;
 }
 
+.test1 {
+    margin-bottom: 60px;
+}
 
 .test2 {
     display: block;
     text-align: left;
-    width: 250px;
+    width: 400px;
     margin: auto;
     line-height: 30px;
+    border-top: dotted rgba(255, 255, 255, 0.466) 1px;
 }
+
 .gras {
     font-weight: bold;
+}
+
+#button3 {
+    border: 5px white solid;
+    background-color: white;
+    color: rgb(14, 14, 14);
+    border-radius: 4px;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+.bann {
+    background-image: url(assets/banniere-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 160px;
+    padding-top: 100px;
+}
+
+#logobann {
+    text-align: center;
+    word-spacing: 30px;
+    vertical-align: middle;
+}
+
+#blackbg3 {
+    background-color: black;
+    padding: 120px;
+}
+
+.form {
+    width: 620px;
+    margin: auto;
+    text-align: left;
+
+}
+
+.troish2 {
+    margin-bottom: 60px;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    background-color: rgb(46, 46, 46);
+    padding-right: 470px;
+    padding-bottom: 8px;
+    border: solid;
+    margin-bottom: 20px;
+}
+
+#form1 {
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+textarea {
+    background-color: rgb(46, 46, 46);
+    padding-right: 470px;
+    padding-bottom: 100px;
+    border: solid;
 }
